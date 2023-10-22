@@ -8,9 +8,11 @@ class notfication extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.scaffoldbg,
-      body: const Text(
-        'Notfication',
-        style: TextStyle(color: Colors.green),
+      body: const Center(
+        child: Text(
+          'Notfication',
+          style: TextStyle(color: Colors.green),
+        ),
       ),
     );
   }

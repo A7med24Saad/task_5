@@ -15,6 +15,7 @@ class search extends StatelessWidget {
           ),
           TextFormField(
             decoration: InputDecoration(
+              prefixIconColor: AppColors.tapcolorafter,
               labelText: 'Search for News',
               labelStyle: const TextStyle(color: Colors.white),
               prefixIcon: const Icon(Icons.search),

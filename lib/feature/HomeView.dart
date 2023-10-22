@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_5/core/app_colors.dart';
-import 'package:task_5/feature/firstscreen.dart';
+import 'package:task_5/feature/Homescreen.dart';
 import 'package:task_5/feature/notfication.dart';
 import 'package:task_5/feature/person.dart';
 import 'package:task_5/feature/search.dart';
@@ -15,7 +15,7 @@ class HomeView extends StatefulWidget {
 class _HomeViewState extends State<HomeView> {
   int currentIndex = 0;
   List<Widget> screens = [
-    const FirstScreen(),
+    const Homescreen(),
     const search(),
     const notfication(),
     const person()

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_5/core/app_colors.dart';
-import 'package:task_5/feature/HomeView.dart';
+import 'package:task_5/feature/firstscreen.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
@@ -15,7 +15,7 @@ class SplashscreenState extends State<Splashscreen> {
     super.initState();
     Future.delayed(const Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const HomeView()));
+          MaterialPageRoute(builder: (context) => const firstscreen()));
     });
   }
 
